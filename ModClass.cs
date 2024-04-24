@@ -8,7 +8,7 @@ namespace NightmareVoid
         internal static NightmareVoid Instance;
 
         public NightmareVoid() : base("Nightmare & Void") { }
-        public override string GetVersion() => "v1.0.0.0";
+        public override string GetVersion() => "v1.0.0.1";
 
         public override List<(string, string)> GetPreloadNames()
         {
@@ -30,7 +30,7 @@ namespace NightmareVoid
         {
             if (key == "NAME_NIGHTMARE_GRIMM")
             {
-                return "Nightmares and Void";
+                return "Nightmare and Void";
             }
             if (key == "GG_S_NIGHTMARE_KING")
             {
@@ -46,7 +46,7 @@ namespace NightmareVoid
             }
             if (key == "NIGHTMARE_GRIMM_SUPER")
             {
-                return "Nightmares";
+                return "Nightmare";
             }
             return orig;
         }

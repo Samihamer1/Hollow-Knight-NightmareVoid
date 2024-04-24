@@ -624,9 +624,7 @@ namespace NightmareVoid
             newconstrain.yMin = 8.8f;
             newconstrain.yMax = 100f;
             newconstrain.constrainX = true;
-            newconstrain.constrainY = true;
-
-            hkClone.GetComponent<HealthManager>().hp = 99999; //damage delegated to grimm           
+            newconstrain.constrainY = true;       
 
             return hkControl;
         }
